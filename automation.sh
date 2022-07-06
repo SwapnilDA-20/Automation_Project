@@ -81,6 +81,6 @@ if [ ! -f /etc/crond.d/automation ];
 
 then
     #apply cron to automation.sh file
-    echo "* * * * * root /root/Automation_Project/automation.sh" >> /etc/cron.d/automation
+    echo "* * * * * root /root/Automation_Project/automation.sh" > /etc/cron.d/automation
 
 fi
